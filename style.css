@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #FAD9BA;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logos{
+    display: flex;
+    align-items:center;
+}
+
+/* .logos img{
+    width:5.25em;
+    height: 5.25em;
+    margin: 15px;
+} */
+
+.logo{
+    text-decoration: none;
+    color: #082A4D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color:#082A4D;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #00d7f6;
+}
+
+.navigation .enroll-btn{
+    min-width: 125px;
+    min-height: 35px;
+    padding: 5px 15px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #00d7f6;
+    color:#082A4D;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.navigation .enroll-btn:hover{
+    background-color:#082A4D;
+    color: white;
+    transition: 0.7s ease;
+    scale: 1.1;
+}
+
+section{
+    padding: 100px 150px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/bg1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: #7D1C23;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.main span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #082A4D;
+    font-size: 2.6em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: #7D1C23;
+    font-size: 1.85em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 55%;
+}
+
+.main-btn{
+    border-radius: 15px;
+    background-color: #00d7f6;
+    color:#082A4D;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.main-btn:hover{
+    background-color: #082A4D;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.social-icons a{
+    color: #082A4D;
+    font-size: 1.7em;
+    padding-right: 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #082A4D;
+    font-size:2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content-abt{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.card-abt{
+    background-color: #fff;
+    width: 48.25em;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+}
+
+/* .card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+} */
+
+.info-abt{
+    text-align: center;
+}   
+
+.info-abt h3{
+    color: #082A4D;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info-abt h2{
+    color: #082A4D;
+    font-weight: 600;
+}
+
+.info-abt p{
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 20px;
+    padding: 0 20px;
+}
+
+.info-abt ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+}
+
+.info-abt ul li strong {
+    font-weight: bold;
+}
+
+.info-abt ul li {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* .icon{
+    color: #082A4D;
+    font-size: 8em;
+    text-align: center;
+} */
+
+.card-img{
+    background-color: #fff;
+    width: 43.75em;
+    height: 33.125em;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.img img{ 
+    width: 35.41875em;
+    height: 32.5em;
+}
+
+.content{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.courses{
+    background-color: #FAD9BA;
+}
+
+.courses content{
+    margin-top: 30px;
+}
+
+.course-card{
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+    /* padding: 0.5em; */
+}
+
+.course-card:hover{
+    transform:scale(1.1)
+}
+
+.course-card:hover .course-image{
+    opacity: 0.9;
+}
+
+.course-image img{
+    width: 100%;
+    /* border-radius: 15px; */
+}
+
+.course-info{
+    padding: 1em;
+}
+
+.course-category{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.course-category img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.course-category-text{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.course-title{
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #082A4D;
+}
+
+.more-details:hover{
+    color:#00d7f6;
+}
+
+.contact-title{
+    display: flex;
+    justify-content: center;
+    color: #082A4D;
+    font-size:2.2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.t-details{
+    display: flex;
+    justify-content: center;
+    color: #666;
+    font-size:1.1em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact-left{
+    background-color: #FAD9BA;
+    flex-basis: 40%;
+    padding: 40px 50px;
+    border-radius: 15px;
+    margin: 0.5em;  
+}
+
+.contact-info-title{
+    font-size: 1.6em;
+    color:#082A4D;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-info-details{
+    color: #666;
+    font-size:0.8em;
+    font-weight: 300;
+}
+
+.info{
+    margin-bottom: 150px;
+}
+
+.info ul{
+    list-style: none;
+}
+
+.info li{
+    padding-top: 50px;
+    color: #082A4D;
+    font-size: 1em;
+}
+
+
+
+#info-icon{
+    padding-right: 10px;
+    color: #082A4D;
+    font-size: 1.3em;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    background-color:white;
+    color: #082A4D;
+    border-radius: 15px;
+    margin: 0.5em; 
+}
+
+.input-row{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+.except-radio{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+
+label{
+    margin-bottom:6px;
+    font-size: 1em;
+    display: block;
+}
+
+.choose{
+    margin-bottom: 10px;
+}
+
+input[type="radio"]{
+    margin: 5px;
+}
+
+.footer{
+    background-color: #FAD9BA;
+    color: #082A4D;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: #7D1C23;
+}
+
+.footer .social-icons{
+    padding: 0px 12px 0px 0px;
+}
+
+.submit-button{
+    background-color: #00d7f6;
+    color: #082A4D;
+    border-radius: 15px;
+    border: none;
+    float: right;
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+}
+
+/* Add your existing CSS styles here */
+
+/* For mobile devices */
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px
+    }
+
+    .navigation a {
+        padding-left: 10px
+    }
+
+    .title {
+        font-size: 1.8em
+    }
+
+    section {
+        padding: 80px 20px
+    }
+
+    .main-content h2 {
+        font-size: 1em
+    }
+
+    .main-content h3 {
+        font-size: 1.6em
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center
+    }
+    .content-abt{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px
+    }
+
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
+    }
+
+    .main-content h2 {
+        font-size: .8em
+    }
+
+    .main-content h3 {
+        font-size: 1.4em
+    }
+}
+
+
+@media (max-width: 500px) {
+    header {
+        width: 90%;
+        padding: 15px 130px; /* Adjust padding for mobile */
+    }
+
+    .logo {
+        font-size: 1.5em;
+        margin-right: 10px; /* Adjust space for mobile */
+    }
+
+    .navigation a {
+        font-size: 0.9em;
+        padding-left: 8px; /* Adjust padding for mobile */
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+      padding: 10px 20px;
+    }
+  
+    .main h3 {
+      width: 100%;
+    }
+  
+    .navigation {
+      padding-right: 20px;
+    }
+  
+    .navigation a {
+      padding-left: 15px;
+    }
+  
+    .course-card {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .card-abt, .card-img {
+      width: 100%;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-left, .contact-right {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* For tablets and small laptops */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .contact-left {
+      flex-basis: 40%;
+    }
+  
+    .contact-right {
+      flex-basis: 60%;
+    }
+  }
+  
+  /* For laptops and desktops */
+  @media (min-width: 992px) {
+    header {
+      padding: 10px 200px;
+    }
+  
+    .content-abt {
+      flex-direction: row;
+    }
+  
+    .card-abt {
+      width: 50%;
+      margin: 15px;
+    }
+  
+    .card-img {
+      width: 45%;
+      margin: 15px;
+    }
+  
+    .contact-left {
+      flex-basis: 30%;
+    }
+  
+    .contact-right {
+      flex-basis: 70%;
+    }
+  }
+  
+  /* Add more media queries for larger screens if needed */
+  
+  /* General responsive styles */
+  
+  /* For the main section */
+  .main {
+    padding: 10% 5%;
+  }
+  
+  /* For the course cards */
+  .course-card {
+    width: 45%;
+  }
+  
+  /* For the contact form */
+  .contact-left, .contact-right {
+    padding: 20px;
+  }
+  
+  .contact-container {
+    width: 100%;
+  }
+  
